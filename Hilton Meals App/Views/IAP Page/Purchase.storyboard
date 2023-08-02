@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="b4w-ES-rge">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PurchaseView-->
+        <scene sceneID="P9E-Fi-KAe">
+            <objects>
+                <viewController storyboardIdentifier="PurchaseView" title="PurchaseView" id="b4w-ES-rge" customClass="PurchaseLandingViewController" customModule="Hilton_Meals_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nda-bB-YEx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wzl-Tl-zes">
+                                <rect key="frame" x="132" y="274" width="150" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="B99-3v-UCC"/>
+                                    <constraint firstAttribute="width" constant="150" id="lc7-8Q-n5S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Cash Purchase">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="currencyButtonPressed:" destination="b4w-ES-rge" eventType="touchUpInside" id="96n-Ba-M9f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDF-x9-Onl">
+                                <rect key="frame" x="132" y="344" width="150" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Zcx-P4-omc"/>
+                                    <constraint firstAttribute="width" constant="150" id="iRL-FX-kId"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="2500 Coins">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="coinButtonPressed:" destination="b4w-ES-rge" eventType="touchUpInside" id="dmP-6g-e2g"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMG-f7-UjG">
+                                <rect key="frame" x="20" y="474" width="374" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMp-os-pv5">
+                                <rect key="frame" x="334" y="74" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="20q-ji-2Uc"/>
+                                    <constraint firstAttribute="width" constant="30" id="kt1-6Y-mqZ"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Close Button Black"/>
+                                <connections>
+                                    <action selector="closeButtonPressed:" destination="b4w-ES-rge" eventType="touchUpInside" id="ACg-4w-f0Q"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How would you like to make your purchase?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Hvm-zP-GL9">
+                                <rect key="frame" x="20" y="124" width="374" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="ome-5b-0LI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3EY-e2-agz">
+                                <rect key="frame" x="132" y="414" width="150" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="0HC-FV-aMS"/>
+                                    <constraint firstAttribute="width" constant="150" id="JwK-XN-jsp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Restore">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="restoreButtonPressed:" destination="b4w-ES-rge" eventType="touchUpInside" id="e0f-Rr-BsZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PpU-Wz-VYc" firstAttribute="bottom" secondItem="HMG-f7-UjG" secondAttribute="bottom" id="5XQ-cN-xQR"/>
+                            <constraint firstItem="3EY-e2-agz" firstAttribute="centerX" secondItem="nda-bB-YEx" secondAttribute="centerX" id="5yH-Ly-ovK"/>
+                            <constraint firstItem="PpU-Wz-VYc" firstAttribute="trailing" secondItem="HMG-f7-UjG" secondAttribute="trailing" constant="20" id="EXh-0o-Bf1"/>
+                            <constraint firstItem="HMG-f7-UjG" firstAttribute="top" secondItem="3EY-e2-agz" secondAttribute="bottom" constant="20" id="EwM-sZ-gge"/>
+                            <constraint firstItem="Wzl-Tl-zes" firstAttribute="centerX" secondItem="nda-bB-YEx" secondAttribute="centerX" id="GXE-P2-ZCq"/>
+                            <constraint firstItem="dDF-x9-Onl" firstAttribute="centerY" secondItem="nda-bB-YEx" secondAttribute="centerY" id="Gsy-ge-26P"/>
+                            <constraint firstItem="PpU-Wz-VYc" firstAttribute="trailing" secondItem="AMp-os-pv5" secondAttribute="trailing" constant="50" id="Hp3-WF-15i"/>
+                            <constraint firstItem="Wzl-Tl-zes" firstAttribute="top" secondItem="Hvm-zP-GL9" secondAttribute="bottom" id="JM0-7U-BdO"/>
+                            <constraint firstItem="PpU-Wz-VYc" firstAttribute="trailing" secondItem="Hvm-zP-GL9" secondAttribute="trailing" constant="20" id="Q7t-1G-tuo"/>
+                            <constraint firstItem="dDF-x9-Onl" firstAttribute="centerX" secondItem="nda-bB-YEx" secondAttribute="centerX" id="RGh-am-GWd"/>
+                            <constraint firstItem="3EY-e2-agz" firstAttribute="top" secondItem="dDF-x9-Onl" secondAttribute="bottom" constant="30" id="Tax-GP-SHA"/>
+                            <constraint firstItem="Hvm-zP-GL9" firstAttribute="top" secondItem="AMp-os-pv5" secondAttribute="bottom" constant="20" id="VkI-uX-dr6"/>
+                            <constraint firstItem="Hvm-zP-GL9" firstAttribute="leading" secondItem="PpU-Wz-VYc" secondAttribute="leading" constant="20" id="ZVD-qj-j3Z"/>
+                            <constraint firstItem="AMp-os-pv5" firstAttribute="top" secondItem="PpU-Wz-VYc" secondAttribute="top" constant="30" id="cWK-ML-VUX"/>
+                            <constraint firstItem="dDF-x9-Onl" firstAttribute="top" secondItem="Wzl-Tl-zes" secondAttribute="bottom" constant="30" id="rbR-C3-njs"/>
+                            <constraint firstItem="HMG-f7-UjG" firstAttribute="leading" secondItem="PpU-Wz-VYc" secondAttribute="leading" constant="20" id="yg0-eY-QFG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PpU-Wz-VYc"/>
+                    </view>
+                    <connections>
+                        <outlet property="coinPurchaseButton" destination="dDF-x9-Onl" id="A9z-6p-rsa"/>
+                        <outlet property="currentCoinLabel" destination="HMG-f7-UjG" id="YZM-ux-BHf"/>
+                        <outlet property="randPurchaseButton" destination="Wzl-Tl-zes" id="pKI-X6-Far"/>
+                        <outlet property="restoreButton" destination="3EY-e2-agz" id="j5J-vf-WZx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="roQ-Ft-AlV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="155.07246376811597" y="21.428571428571427"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Close Button Black" width="441" height="427"/>
+    </resources>
+</document>

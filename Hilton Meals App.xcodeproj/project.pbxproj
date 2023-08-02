@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D35E564AE19DB9C3B468C24 /* Pods_Hilton_Meals_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9125C0F2CF070B0FFD8010A2 /* Pods_Hilton_Meals_App.framework */; };
+		D410A61C228AAD7B00FE91C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D410A61B228AAD7B00FE91C6 /* GoogleService-Info.plist */; };
+		D417397F2253B03F007528F3 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D417397E2253B03F007528F3 /* AdminViewController.swift */; };
+		D41739812253BC61007528F3 /* TeaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41739802253BC61007528F3 /* TeaViewController.swift */; };
+		D421E289229541390091C138 /* Purchase.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D421E288229541390091C138 /* Purchase.storyboard */; };
+		D421E28B229542030091C138 /* PurchaseLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D421E28A229542030091C138 /* PurchaseLandingViewController.swift */; };
+		D42FF669225D283E0016A4B0 /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42FF668225D283E0016A4B0 /* LightTheme.swift */; };
+		D434A77B227826D900D58D5E /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434A77A227826D900D58D5E /* Connectivity.swift */; };
+		D44961CA229E671B009F864E /* Policy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44961C9229E671B009F864E /* Policy.storyboard */; };
+		D44961CC229E6736009F864E /* PolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44961CB229E6736009F864E /* PolicyViewController.swift */; };
+		D45529E02297DE5200984D97 /* UserActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45529DF2297DE5200984D97 /* UserActivityType.swift */; };
+		D464BCEF2252782100616157 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D464BCEE2252782100616157 /* RootPageViewController.swift */; };
+		D464BCF32252899000616157 /* BreakfastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D464BCF22252899000616157 /* BreakfastViewController.swift */; };
+		D464BCF5225289BC00616157 /* LunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D464BCF4225289BC00616157 /* LunchViewController.swift */; };
+		D464BCF7225289C500616157 /* DinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D464BCF6225289C500616157 /* DinnerViewController.swift */; };
+		D4694FFA228B409B004D4A69 /* AdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4694FF9228B409B004D4A69 /* AdViewController.swift */; };
+		D46D85BA2296D16A003BD969 /* IAPProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D85B92296D16A003BD969 /* IAPProduct.swift */; };
+		D46D85BC2296D1E1003BD969 /* IAPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D85BB2296D1E1003BD969 /* IAPService.swift */; };
+		D4735FB72298781700CA3D18 /* DROViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4735FB62298781700CA3D18 /* DROViewController.swift */; };
+		D4753171229F149100E670EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4753170229F149100E670EC /* AppDelegate.swift */; };
+		D4753173229F149100E670EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4753172229F149100E670EC /* ViewController.swift */; };
+		D4753176229F149100E670EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4753174229F149100E670EC /* Main.storyboard */; };
+		D4753178229F149200E670EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4753177229F149200E670EC /* Assets.xcassets */; };
+		D475317B229F149200E670EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4753179229F149200E670EC /* LaunchScreen.storyboard */; };
+		D47F5666227C95D000F8548A /* NimbusRomDGR-Bold-Italic_32808.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D47F5662227C95D000F8548A /* NimbusRomDGR-Bold-Italic_32808.ttf */; };
+		D47F5667227C95D000F8548A /* NimbusRomDGR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D47F5663227C95D000F8548A /* NimbusRomDGR.ttf */; };
+		D47F5668227C95D000F8548A /* NimbusRomDGR-Bold_32809.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D47F5664227C95D000F8548A /* NimbusRomDGR-Bold_32809.ttf */; };
+		D47F5669227C95D000F8548A /* NimbusRomDGR-Italic_32810.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D47F5665227C95D000F8548A /* NimbusRomDGR-Italic_32810.ttf */; };
+		D4856E4C22987EC200D3F3A0 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4856E4B22987EC200D3F3A0 /* Settings.storyboard */; };
+		D49BE086225DD05F006B1278 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49BE085225DD05F006B1278 /* Theme.swift */; };
+		D49BE088225DD094006B1278 /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49BE087225DD094006B1278 /* ThemeProtocol.swift */; };
+		D49BE08A225DD1DC006B1278 /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49BE089225DD1DC006B1278 /* DarkTheme.swift */; };
+		D49BE08C225E00D7006B1278 /* Setup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49BE08B225E00D7006B1278 /* Setup.storyboard */; };
+		D49BE08E225E041F006B1278 /* SetupLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49BE08D225E041F006B1278 /* SetupLandingViewController.swift */; };
+		D49BE097225E2433006B1278 /* ModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49BE096225E2433006B1278 /* ModeViewController.swift */; };
+		D4A9826C229FEAB00024A545 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A9826B229FEAB00024A545 /* Default-568h@2x.png */; };
+		D4CD1361225297DC00A434D1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CD1360225297DC00A434D1 /* SettingsViewController.swift */; };
+		D4D65CE0228B22060078DB98 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D65CDF228B22060078DB98 /* StoreKit.framework */; };
+		D4D684472250146600F64162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D684462250146600F64162 /* AppDelegate.swift */; };
+		D4D684492250146600F64162 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D684482250146600F64162 /* LandingPage.swift */; };
+		D4D6844C2250146600F64162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D6844A2250146600F64162 /* Main.storyboard */; };
+		D4D6844E2250146700F64162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D6844D2250146700F64162 /* Assets.xcassets */; };
+		D4D684512250146700F64162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D6844F2250146700F64162 /* LaunchScreen.storyboard */; };
+		D4DC6DA922782D930041ACBB /* OfflineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DC6DA822782D930041ACBB /* OfflineViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		181CDEBAF18086A846D285A9 /* Pods-Hilton Meals App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hilton Meals App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hilton Meals App/Pods-Hilton Meals App.debug.xcconfig"; sourceTree = "<group>"; };
+		28A3CBEF95F607F5447FEA13 /* Pods-Hilton Meals App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hilton Meals App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hilton Meals App/Pods-Hilton Meals App.release.xcconfig"; sourceTree = "<group>"; };
+		9125C0F2CF070B0FFD8010A2 /* Pods_Hilton_Meals_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hilton_Meals_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D410A61B228AAD7B00FE91C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D417397E2253B03F007528F3 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		D41739802253BC61007528F3 /* TeaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaViewController.swift; sourceTree = "<group>"; };
+		D421E288229541390091C138 /* Purchase.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Purchase.storyboard; sourceTree = "<group>"; };
+		D421E28A229542030091C138 /* PurchaseLandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseLandingViewController.swift; sourceTree = "<group>"; };
+		D42FF668225D283E0016A4B0 /* LightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
+		D434A77A227826D900D58D5E /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		D44961C9229E671B009F864E /* Policy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Policy.storyboard; sourceTree = "<group>"; };
+		D44961CB229E6736009F864E /* PolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyViewController.swift; sourceTree = "<group>"; };
+		D45529DF2297DE5200984D97 /* UserActivityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActivityType.swift; sourceTree = "<group>"; };
+		D464BCEE2252782100616157 /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
+		D464BCF22252899000616157 /* BreakfastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastViewController.swift; sourceTree = "<group>"; };
+		D464BCF4225289BC00616157 /* LunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchViewController.swift; sourceTree = "<group>"; };
+		D464BCF6225289C500616157 /* DinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerViewController.swift; sourceTree = "<group>"; };
+		D4694FF9228B409B004D4A69 /* AdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdViewController.swift; sourceTree = "<group>"; };
+		D46D85B92296D16A003BD969 /* IAPProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPProduct.swift; sourceTree = "<group>"; };
+		D46D85BB2296D1E1003BD969 /* IAPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPService.swift; sourceTree = "<group>"; };
+		D4735FB62298781700CA3D18 /* DROViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DROViewController.swift; sourceTree = "<group>"; };
+		D475316E229F149100E670EC /* School Meals App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "School Meals App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4753170229F149100E670EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4753172229F149100E670EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4753175229F149100E670EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4753177229F149200E670EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D475317A229F149200E670EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D475317C229F149200E670EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47B86FE227C2AEE007A3F5A /* Hilton Meals App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hilton Meals App-Bridging-Header.h"; sourceTree = "<group>"; };
+		D47F5662227C95D000F8548A /* NimbusRomDGR-Bold-Italic_32808.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NimbusRomDGR-Bold-Italic_32808.ttf"; sourceTree = "<group>"; };
+		D47F5663227C95D000F8548A /* NimbusRomDGR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NimbusRomDGR.ttf; sourceTree = "<group>"; };
+		D47F5664227C95D000F8548A /* NimbusRomDGR-Bold_32809.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NimbusRomDGR-Bold_32809.ttf"; sourceTree = "<group>"; };
+		D47F5665227C95D000F8548A /* NimbusRomDGR-Italic_32810.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NimbusRomDGR-Italic_32810.ttf"; sourceTree = "<group>"; };
+		D4856E4B22987EC200D3F3A0 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		D49BE085225DD05F006B1278 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		D49BE087225DD094006B1278 /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
+		D49BE089225DD1DC006B1278 /* DarkTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
+		D49BE08B225E00D7006B1278 /* Setup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setup.storyboard; sourceTree = "<group>"; };
+		D49BE08D225E041F006B1278 /* SetupLandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupLandingViewController.swift; sourceTree = "<group>"; };
+		D49BE096225E2433006B1278 /* ModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeViewController.swift; sourceTree = "<group>"; };
+		D4A9826B229FEAB00024A545 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D4CD1360225297DC00A434D1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D4CE105D22854C2100DFAE01 /* Hilton Meals App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hilton Meals App.entitlements"; sourceTree = "<group>"; };
+		D4D65CDF228B22060078DB98 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D4D684432250146600F64162 /* Hilton Meals App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hilton Meals App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D684462250146600F64162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4D684482250146600F64162 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		D4D6844B2250146600F64162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4D6844D2250146700F64162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4D684502250146700F64162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4D684522250146700F64162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4DC6DA822782D930041ACBB /* OfflineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D475316B229F149100E670EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D684402250146600F64162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D35E564AE19DB9C3B468C24 /* Pods_Hilton_Meals_App.framework in Frameworks */,
+				D4D65CE0228B22060078DB98 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A080B5B3D907CF6A95A4CEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4D65CDF228B22060078DB98 /* StoreKit.framework */,
+				9125C0F2CF070B0FFD8010A2 /* Pods_Hilton_Meals_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA43256D1A00E94EFB66D134 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				181CDEBAF18086A846D285A9 /* Pods-Hilton Meals App.debug.xcconfig */,
+				28A3CBEF95F607F5447FEA13 /* Pods-Hilton Meals App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D400604722608C0200CB9A2E /* Custom Segues */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Segues";
+			sourceTree = "<group>";
+		};
+		D421E2872295410F0091C138 /* IAP Page */ = {
+			isa = PBXGroup;
+			children = (
+				D421E288229541390091C138 /* Purchase.storyboard */,
+				D421E28A229542030091C138 /* PurchaseLandingViewController.swift */,
+			);
+			path = "IAP Page";
+			sourceTree = "<group>";
+		};
+		D42FF667225D28290016A4B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4DF32C1227C69BF000F2CC2 /* Fonts */,
+				D47B86FE227C2AEE007A3F5A /* Hilton Meals App-Bridging-Header.h */,
+				D42FF668225D283E0016A4B0 /* LightTheme.swift */,
+				D49BE085225DD05F006B1278 /* Theme.swift */,
+				D49BE087225DD094006B1278 /* ThemeProtocol.swift */,
+				D49BE089225DD1DC006B1278 /* DarkTheme.swift */,
+				D434A77A227826D900D58D5E /* Connectivity.swift */,
+				D46D85B92296D16A003BD969 /* IAPProduct.swift */,
+				D46D85BB2296D1E1003BD969 /* IAPService.swift */,
+				D45529DF2297DE5200984D97 /* UserActivityType.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D44961C8229E6702009F864E /* Policy Page */ = {
+			isa = PBXGroup;
+			children = (
+				D44961C9229E671B009F864E /* Policy.storyboard */,
+				D44961CB229E6736009F864E /* PolicyViewController.swift */,
+			);
+			path = "Policy Page";
+			sourceTree = "<group>";
+		};
+		D475316F229F149100E670EC /* School Meals App */ = {
+			isa = PBXGroup;
+			children = (
+				D4753170229F149100E670EC /* AppDelegate.swift */,
+				D4753172229F149100E670EC /* ViewController.swift */,
+				D4753174229F149100E670EC /* Main.storyboard */,
+				D4753177229F149200E670EC /* Assets.xcassets */,
+				D4753179229F149200E670EC /* LaunchScreen.storyboard */,
+				D475317C229F149200E670EC /* Info.plist */,
+			);
+			path = "School Meals App";
+			sourceTree = "<group>";
+		};
+		D4856E4A22987EAE00D3F3A0 /* Settings View */ = {
+			isa = PBXGroup;
+			children = (
+				D4856E4B22987EC200D3F3A0 /* Settings.storyboard */,
+				D4CD1360225297DC00A434D1 /* SettingsViewController.swift */,
+			);
+			path = "Settings View";
+			sourceTree = "<group>";
+		};
+		D49BE08F225E042D006B1278 /* Main Page */ = {
+			isa = PBXGroup;
+			children = (
+				D400604722608C0200CB9A2E /* Custom Segues */,
+				D49BE090225E045D006B1278 /* Meals Controllers */,
+				D4D6844A2250146600F64162 /* Main.storyboard */,
+				D417397E2253B03F007528F3 /* AdminViewController.swift */,
+				D4D684482250146600F64162 /* LandingPage.swift */,
+			);
+			path = "Main Page";
+			sourceTree = "<group>";
+		};
+		D49BE090225E045D006B1278 /* Meals Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D464BCEE2252782100616157 /* RootPageViewController.swift */,
+				D464BCF22252899000616157 /* BreakfastViewController.swift */,
+				D41739802253BC61007528F3 /* TeaViewController.swift */,
+				D464BCF4225289BC00616157 /* LunchViewController.swift */,
+				D464BCF6225289C500616157 /* DinnerViewController.swift */,
+				D4DC6DA822782D930041ACBB /* OfflineViewController.swift */,
+				D4694FF9228B409B004D4A69 /* AdViewController.swift */,
+				D4735FB62298781700CA3D18 /* DROViewController.swift */,
+			);
+			path = "Meals Controllers";
+			sourceTree = "<group>";
+		};
+		D49BE091225E047F006B1278 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				D49BE08B225E00D7006B1278 /* Setup.storyboard */,
+				D49BE08D225E041F006B1278 /* SetupLandingViewController.swift */,
+				D49BE096225E2433006B1278 /* ModeViewController.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		D4C2E34F2299473000A5D058 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D44961C8229E6702009F864E /* Policy Page */,
+				D49BE091225E047F006B1278 /* Setup */,
+				D421E2872295410F0091C138 /* IAP Page */,
+				D49BE08F225E042D006B1278 /* Main Page */,
+				D4856E4A22987EAE00D3F3A0 /* Settings View */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D4D6843A2250146600F64162 = {
+			isa = PBXGroup;
+			children = (
+				D4A9826B229FEAB00024A545 /* Default-568h@2x.png */,
+				D4D684452250146600F64162 /* Hilton Meals App */,
+				D475316F229F149100E670EC /* School Meals App */,
+				D4D684442250146600F64162 /* Products */,
+				AA43256D1A00E94EFB66D134 /* Pods */,
+				3A080B5B3D907CF6A95A4CEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4D684442250146600F64162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4D684432250146600F64162 /* Hilton Meals App.app */,
+				D475316E229F149100E670EC /* School Meals App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4D684452250146600F64162 /* Hilton Meals App */ = {
+			isa = PBXGroup;
+			children = (
+				D4C2E34F2299473000A5D058 /* Views */,
+				D42FF667225D28290016A4B0 /* Resources */,
+				D4CE105D22854C2100DFAE01 /* Hilton Meals App.entitlements */,
+				D4D684462250146600F64162 /* AppDelegate.swift */,
+				D4D6844F2250146700F64162 /* LaunchScreen.storyboard */,
+				D4D6844D2250146700F64162 /* Assets.xcassets */,
+				D4D684522250146700F64162 /* Info.plist */,
+				D410A61B228AAD7B00FE91C6 /* GoogleService-Info.plist */,
+			);
+			path = "Hilton Meals App";
+			sourceTree = "<group>";
+		};
+		D4DF32C1227C69BF000F2CC2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D47F5664227C95D000F8548A /* NimbusRomDGR-Bold_32809.ttf */,
+				D47F5662227C95D000F8548A /* NimbusRomDGR-Bold-Italic_32808.ttf */,
+				D47F5665227C95D000F8548A /* NimbusRomDGR-Italic_32810.ttf */,
+				D47F5663227C95D000F8548A /* NimbusRomDGR.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D475316D229F149100E670EC /* School Meals App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D475317F229F149200E670EC /* Build configuration list for PBXNativeTarget "School Meals App" */;
+			buildPhases = (
+				D475316A229F149100E670EC /* Sources */,
+				D475316B229F149100E670EC /* Frameworks */,
+				D475316C229F149100E670EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "School Meals App";
+			productName = "School Meals App";
+			productReference = D475316E229F149100E670EC /* School Meals App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4D684422250146600F64162 /* Hilton Meals App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D684552250146700F64162 /* Build configuration list for PBXNativeTarget "Hilton Meals App" */;
+			buildPhases = (
+				7B6E09A248B67B2981F582AC /* [CP] Check Pods Manifest.lock */,
+				D4D6843F2250146600F64162 /* Sources */,
+				D4D684402250146600F64162 /* Frameworks */,
+				D4D684412250146600F64162 /* Resources */,
+				1E19951941920BBDCCD5A12C /* [CP] Embed Pods Frameworks */,
+				D46D85BF2296F26B003BD969 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hilton Meals App";
+			productName = "Hilton Meals App";
+			productReference = D4D684432250146600F64162 /* Hilton Meals App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4D6843B2250146600F64162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Haynes Developments";
+				TargetAttributes = {
+					D475316D229F149100E670EC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D4D684422250146600F64162 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D4D6843E2250146600F64162 /* Build configuration list for PBXProject "Hilton Meals App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4D6843A2250146600F64162;
+			productRefGroup = D4D684442250146600F64162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4D684422250146600F64162 /* Hilton Meals App */,
+				D475316D229F149100E670EC /* School Meals App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D475316C229F149100E670EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D475317B229F149200E670EC /* LaunchScreen.storyboard in Resources */,
+				D4A9826C229FEAB00024A545 /* Default-568h@2x.png in Resources */,
+				D4753178229F149200E670EC /* Assets.xcassets in Resources */,
+				D4753176229F149100E670EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D684412250146600F64162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49BE08C225E00D7006B1278 /* Setup.storyboard in Resources */,
+				D421E289229541390091C138 /* Purchase.storyboard in Resources */,
+				D4856E4C22987EC200D3F3A0 /* Settings.storyboard in Resources */,
+				D4D684512250146700F64162 /* LaunchScreen.storyboard in Resources */,
+				D410A61C228AAD7B00FE91C6 /* GoogleService-Info.plist in Resources */,
+				D47F5668227C95D000F8548A /* NimbusRomDGR-Bold_32809.ttf in Resources */,
+				D47F5667227C95D000F8548A /* NimbusRomDGR.ttf in Resources */,
+				D4D6844E2250146700F64162 /* Assets.xcassets in Resources */,
+				D44961CA229E671B009F864E /* Policy.storyboard in Resources */,
+				D47F5666227C95D000F8548A /* NimbusRomDGR-Bold-Italic_32808.ttf in Resources */,
+				D47F5669227C95D000F8548A /* NimbusRomDGR-Italic_32810.ttf in Resources */,
+				D4D6844C2250146600F64162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E19951941920BBDCCD5A12C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hilton Meals App/Pods-Hilton Meals App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hilton Meals App/Pods-Hilton Meals App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B6E09A248B67B2981F582AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hilton Meals App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D46D85BF2296F26B003BD969 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D475316A229F149100E670EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4753173229F149100E670EC /* ViewController.swift in Sources */,
+				D4753171229F149100E670EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D6843F2250146600F64162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D684492250146600F64162 /* LandingPage.swift in Sources */,
+				D464BCF32252899000616157 /* BreakfastViewController.swift in Sources */,
+				D46D85BA2296D16A003BD969 /* IAPProduct.swift in Sources */,
+				D4CD1361225297DC00A434D1 /* SettingsViewController.swift in Sources */,
+				D4735FB72298781700CA3D18 /* DROViewController.swift in Sources */,
+				D49BE088225DD094006B1278 /* ThemeProtocol.swift in Sources */,
+				D49BE097225E2433006B1278 /* ModeViewController.swift in Sources */,
+				D464BCF5225289BC00616157 /* LunchViewController.swift in Sources */,
+				D45529E02297DE5200984D97 /* UserActivityType.swift in Sources */,
+				D49BE08A225DD1DC006B1278 /* DarkTheme.swift in Sources */,
+				D49BE086225DD05F006B1278 /* Theme.swift in Sources */,
+				D42FF669225D283E0016A4B0 /* LightTheme.swift in Sources */,
+				D49BE08E225E041F006B1278 /* SetupLandingViewController.swift in Sources */,
+				D46D85BC2296D1E1003BD969 /* IAPService.swift in Sources */,
+				D417397F2253B03F007528F3 /* AdminViewController.swift in Sources */,
+				D41739812253BC61007528F3 /* TeaViewController.swift in Sources */,
+				D421E28B229542030091C138 /* PurchaseLandingViewController.swift in Sources */,
+				D434A77B227826D900D58D5E /* Connectivity.swift in Sources */,
+				D4DC6DA922782D930041ACBB /* OfflineViewController.swift in Sources */,
+				D464BCF7225289C500616157 /* DinnerViewController.swift in Sources */,
+				D44961CC229E6736009F864E /* PolicyViewController.swift in Sources */,
+				D4694FFA228B409B004D4A69 /* AdViewController.swift in Sources */,
+				D4D684472250146600F64162 /* AppDelegate.swift in Sources */,
+				D464BCEF2252782100616157 /* RootPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4753174229F149100E670EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4753175229F149100E670EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4753179229F149200E670EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D475317A229F149200E670EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D4D6844A2250146600F64162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4D6844B2250146600F64162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4D6844F2250146700F64162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4D684502250146700F64162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D475317D229F149200E670EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXZ2U9Q7MF;
+				INFOPLIST_FILE = "$(SRCROOT)/Hilton Meals App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haynesdevelopments.School-Meals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D475317E229F149200E670EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXZ2U9Q7MF;
+				INFOPLIST_FILE = "$(SRCROOT)/Hilton Meals App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haynesdevelopments.School-Meals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4D684532250146700F64162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4D684542250146700F64162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4D684562250146700F64162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 181CDEBAF18086A846D285A9 /* Pods-Hilton Meals App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Hilton Meals App/Hilton Meals App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TXZ2U9Q7MF;
+				INFOPLIST_FILE = "Hilton Meals App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haynesdevelopments.HiltonMealsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hilton Meals App/Resources/Hilton Meals App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4D684572250146700F64162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A3CBEF95F607F5447FEA13 /* Pods-Hilton Meals App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Hilton Meals App/Hilton Meals App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TXZ2U9Q7MF;
+				INFOPLIST_FILE = "Hilton Meals App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haynesdevelopments.HiltonMealsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hilton Meals App/Resources/Hilton Meals App-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D475317F229F149200E670EC /* Build configuration list for PBXNativeTarget "School Meals App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D475317D229F149200E670EC /* Debug */,
+				D475317E229F149200E670EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D6843E2250146600F64162 /* Build configuration list for PBXProject "Hilton Meals App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D684532250146700F64162 /* Debug */,
+				D4D684542250146700F64162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D684552250146700F64162 /* Build configuration list for PBXNativeTarget "Hilton Meals App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D684562250146700F64162 /* Debug */,
+				D4D684572250146700F64162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4D6843B2250146600F64162 /* Project object */;
+}

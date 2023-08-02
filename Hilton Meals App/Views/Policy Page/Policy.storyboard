@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EJt-B9-RNo">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Policy View Controller-->
+        <scene sceneID="qCV-C6-SiB">
+            <objects>
+                <viewController id="EJt-B9-RNo" customClass="PolicyViewController" customModule="Hilton_Meals_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xpI-fm-fwe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="260" text="Privacy Policy &amp; Terms and conditions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="5N0-Fp-85q">
+                                <rect key="frame" x="20" y="49" width="374" height="75.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="240" text="By clicking finish, you are agreeing with the Privacy Policy and Terms and Conditions of the Hilton Meals App" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Ps0-gr-Nqu">
+                                <rect key="frame" x="20" y="723.5" width="374" height="48.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="260" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxA-dv-xAg">
+                                <rect key="frame" x="40" y="792" width="334" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="vML-Ni-l1q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <state key="normal" title="Finish">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="finishButtonPressed:" destination="EJt-B9-RNo" eventType="touchUpInside" id="7pG-Ti-HHm"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6om-Ai-zM3">
+                                <rect key="frame" x="0.0" y="124.5" width="414" height="599"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aj5-Mb-qNo">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="599"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="260" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="999" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="RIU-yj-haP">
+                                                <rect key="frame" x="20" y="10" width="374" height="289"/>
+                                                <string key="text">Last updated: May 29, 2019
+
+The information contained on Hilton Meals mobile app (the "Service") is for general information purposes only. Bidvest Catering assumes no responsibility for errors or omissions in the contents on the Service. The Service is in no way affiliated to Bidvest Catering and as such cannot be found liable for any issues with the application. In no event shall Bidvest Catering be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. Haynes Developments reserves the right to make additions, deletions, or modification to the contents on the Service at any time without prior notice.
+
+External links disclaimer
+
+Hilton Meals mobile app may contain links to external websites that are not provided or maintained by or in any way affiliated with Haynes Developments Please note that the does not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7BG-CS-Joc">
+                                                <rect key="frame" x="0.0" y="319" width="414" height="30"/>
+                                                <state key="normal" title="Terms and Conditions"/>
+                                                <connections>
+                                                    <action selector="TandCButtonPressed:" destination="EJt-B9-RNo" eventType="touchUpInside" id="Ccp-4K-d5W"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMA-wj-Fz3">
+                                                <rect key="frame" x="0.0" y="369" width="414" height="30"/>
+                                                <state key="normal" title="Privacy Policy"/>
+                                                <connections>
+                                                    <action selector="privacyPolicyPressed:" destination="EJt-B9-RNo" eventType="touchUpInside" id="fgm-bZ-iVs"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="dMA-wj-Fz3" secondAttribute="trailing" id="0lC-0Y-BfB"/>
+                                            <constraint firstItem="dMA-wj-Fz3" firstAttribute="leading" secondItem="aj5-Mb-qNo" secondAttribute="leading" id="184-DT-shS"/>
+                                            <constraint firstAttribute="trailing" secondItem="7BG-CS-Joc" secondAttribute="trailing" id="1LN-iY-wYd"/>
+                                            <constraint firstItem="RIU-yj-haP" firstAttribute="leading" secondItem="aj5-Mb-qNo" secondAttribute="leading" constant="20" id="5rN-NI-tvA"/>
+                                            <constraint firstAttribute="trailing" secondItem="RIU-yj-haP" secondAttribute="trailing" constant="20" id="Bq5-Y2-mSh"/>
+                                            <constraint firstItem="dMA-wj-Fz3" firstAttribute="top" secondItem="7BG-CS-Joc" secondAttribute="bottom" constant="20" id="Kqp-L8-3QJ"/>
+                                            <constraint firstItem="RIU-yj-haP" firstAttribute="top" secondItem="aj5-Mb-qNo" secondAttribute="top" constant="10" id="M9n-Pl-otR"/>
+                                            <constraint firstItem="7BG-CS-Joc" firstAttribute="top" secondItem="RIU-yj-haP" secondAttribute="bottom" constant="20" id="hkm-98-sta"/>
+                                            <constraint firstItem="7BG-CS-Joc" firstAttribute="leading" secondItem="aj5-Mb-qNo" secondAttribute="leading" id="q1k-Oa-itQ"/>
+                                            <constraint firstAttribute="bottom" secondItem="dMA-wj-Fz3" secondAttribute="bottom" constant="200" id="ymm-TN-Fwv"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="aj5-Mb-qNo" secondAttribute="trailing" id="4i1-b7-Xac"/>
+                                    <constraint firstItem="aj5-Mb-qNo" firstAttribute="height" secondItem="6om-Ai-zM3" secondAttribute="height" priority="250" id="AyF-nI-Ier"/>
+                                    <constraint firstAttribute="bottom" secondItem="aj5-Mb-qNo" secondAttribute="bottom" id="GCZ-lE-ZDp"/>
+                                    <constraint firstItem="aj5-Mb-qNo" firstAttribute="width" secondItem="6om-Ai-zM3" secondAttribute="width" id="OMA-4w-hVu"/>
+                                    <constraint firstItem="aj5-Mb-qNo" firstAttribute="leading" secondItem="6om-Ai-zM3" secondAttribute="leading" id="Se5-be-03T"/>
+                                    <constraint firstItem="aj5-Mb-qNo" firstAttribute="top" secondItem="6om-Ai-zM3" secondAttribute="top" id="bvS-U1-3lD"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ps0-gr-Nqu" firstAttribute="leading" secondItem="VLs-UV-ItE" secondAttribute="leading" constant="20" id="2Dj-Me-25R"/>
+                            <constraint firstItem="5N0-Fp-85q" firstAttribute="top" secondItem="VLs-UV-ItE" secondAttribute="top" constant="5" id="8Cy-Qn-Egz"/>
+                            <constraint firstItem="6om-Ai-zM3" firstAttribute="leading" secondItem="xpI-fm-fwe" secondAttribute="leading" id="EMt-ek-cQC"/>
+                            <constraint firstAttribute="trailing" secondItem="6om-Ai-zM3" secondAttribute="trailing" id="HZE-VK-Ubk"/>
+                            <constraint firstItem="VLs-UV-ItE" firstAttribute="bottom" secondItem="NxA-dv-xAg" secondAttribute="bottom" constant="20" id="Jjl-wX-oXz"/>
+                            <constraint firstItem="VLs-UV-ItE" firstAttribute="trailing" secondItem="5N0-Fp-85q" secondAttribute="trailing" constant="20" id="QAE-0F-63b"/>
+                            <constraint firstItem="NxA-dv-xAg" firstAttribute="top" secondItem="Ps0-gr-Nqu" secondAttribute="bottom" constant="20" id="UV9-te-3ie"/>
+                            <constraint firstItem="VLs-UV-ItE" firstAttribute="trailing" secondItem="NxA-dv-xAg" secondAttribute="trailing" constant="40" id="eNE-GK-X1m"/>
+                            <constraint firstItem="NxA-dv-xAg" firstAttribute="leading" secondItem="VLs-UV-ItE" secondAttribute="leading" constant="40" id="k1U-aU-yMY"/>
+                            <constraint firstItem="Ps0-gr-Nqu" firstAttribute="top" secondItem="6om-Ai-zM3" secondAttribute="bottom" id="lag-Lc-QFt"/>
+                            <constraint firstItem="5N0-Fp-85q" firstAttribute="leading" secondItem="VLs-UV-ItE" secondAttribute="leading" constant="20" id="mdE-eG-BiE"/>
+                            <constraint firstAttribute="trailing" secondItem="Ps0-gr-Nqu" secondAttribute="trailing" constant="20" id="rIf-ur-hEP"/>
+                            <constraint firstItem="6om-Ai-zM3" firstAttribute="top" secondItem="5N0-Fp-85q" secondAttribute="bottom" id="uQO-ly-dex"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VLs-UV-ItE"/>
+                    </view>
+                    <connections>
+                        <outlet property="TandCButton" destination="7BG-CS-Joc" id="6Aw-Ao-FGI"/>
+                        <outlet property="finishButton" destination="NxA-dv-xAg" id="eOC-gM-PDQ"/>
+                        <outlet property="footerText" destination="Ps0-gr-Nqu" id="WNk-MV-c2S"/>
+                        <outlet property="heading" destination="5N0-Fp-85q" id="ass-D1-YSM"/>
+                        <outlet property="mainText" destination="RIU-yj-haP" id="Inm-Ma-kcI"/>
+                        <outlet property="privacyButton" destination="dMA-wj-Fz3" id="acY-yV-i2p"/>
+                        <segue destination="qH6-UM-yze" kind="presentation" identifier="toMain" modalTransitionStyle="crossDissolve" id="6m1-DQ-V6U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gAa-7b-MBJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1049.2753623188407" y="-551.11607142857144"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="QDJ-fv-C14">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="qH6-UM-yze" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZbY-jc-u6G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-503" y="-551"/>
+        </scene>
+    </scenes>
+</document>
